@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="shortcut icon" href="./Images/user-image.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="circle1 circle"></div>
+
+        <div class="card">
+            <div class="image"> <img src="./Images/user-image.jpg"></div>
+            <div class="heading"> Aashu Thakur</div>
+            <div class="discrption">B.tech CSE Student</div>
+            <div class="buttons">
+                <button onclick="openModal()" class="btn1"> <i class="fa-solid fa-share fa-sm"></i> Profile</button>
+                <button onclick="resume()" class="btn2"> <i class="fa-solid fa-file"></i> Resume</button>
+            </div>
+        </div>
+
+        <div class="circle2 circle"></div>
+
+        <div class="share-profile ">
+            <div class="header">
+                <div class="profile-heading">Share My Profile</div>
+                <div><i  onclick="closeModal()"  class="fa-solid fa-x"></i></div>
+            </div>
+            <div class="profile-descrption">Share this via</div>
+            <div class="profile-icons">
+                <a href="https://www.linkedin.com/in/aashu47" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="" target="_blank">  <i class="fa-brands fa-github"></i></i></a>
+                <a href="" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" target="_blank"> <i class="fa-brands fa-telegram"></i></a>
+                
+            </div>
+        </div>
+
+        <div class="overlay" onclick="closeModal()"></div>
+    </div>
+    <script src="https://kit.fontawesome.com/46d90b4e3b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
