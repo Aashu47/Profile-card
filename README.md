@@ -2,6 +2,8 @@
 
 Welcome to my personal website! This website showcases my profile Card and provides links to my social media accounts and my resume.
 
+## Live Link
+ https://aashu47.github.io/Profile-card/
 
 ## About
 
